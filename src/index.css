@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #deded6;
+  color: #ddd;
+  text-align: center;
+}
+.App {
+  width: 960px;
+  margin: 0 auto;
+}
+h1 {
+  color: #369457;
+  font-size: 4em;
+  letter-spacing: 2px;
+}
+h2 {
+  color: #369457;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+h3 {
+  color: #369457;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+button {
+  margin: 0 10px;
+  background: transparent;
+  border: 3px solid #aca4a1;
+  border-radius: 20px;
+  padding: 10px;
+  color: #ccc;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+button:defined {
+  color: #369457;
+  border-color: #369457;
+}
+button:hover {
+  color: #aca4a1;
+  border-color: #aca4a1;
+}
+.content {
+  text-align: left;
+}
+.card {
+  padding: 8px 16px;
+  background: #1b1b1b;
+  margin: 16px 0;
+  border-radius: 20px;
+}
+.card img {
+  width: 132px;
+  height: 165px;
+  border-radius: 20px;
+}
+.card p {
+  margin: 6px 0;
+  color: #999;
+}
+.card h3 {
+  margin: 10px 0;
+  color: #369457;
+}
+button:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 50px;
+}
+.footer {
+  margin: 100px;
+  font-family: sans-serif;
+  background: #deded6;
+  color: #369457;
+  text-align: center;
+}
